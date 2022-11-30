@@ -4,7 +4,7 @@ var operandob;
 var operacion;
 
 function init(){
-        //variables//
+        //VARIABLES//
     var resultado = document.getElementById('resultado');
     var reset = document.getElementById('reset');
     var suma = document.getElementById('suma');
@@ -23,7 +23,7 @@ function init(){
     var nueve = document.getElementById('nueve');
     var cero = document.getElementById('cero');
 }
-        //Eventos de click//
+        //EVENTOS DE CLICK//
 uno.onclick = function(e){
     resultado.textContent = resultado.textContent  + "1";
 }
